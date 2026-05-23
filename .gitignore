@@ -1,0 +1,4 @@
+node_modules 
+.env
+#esto es para que no se suba esa carpeta .gitignore hace que ciertos elementos puestos aqui no se suban a github
+#node_modules pesa demasiado por eso es mejor no subir cuando al duplicar el proyecto es mas facil hacer "npm install" para recuerpar esa carpeta 

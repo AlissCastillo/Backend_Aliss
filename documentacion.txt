@@ -1,0 +1,45 @@
+Autenticacion
+URL: http://localhost:5000/api/auth/login
+DATOS JSON:
+{
+    username: ''
+    password: ''
+
+}
+
+METODO GET UNICO
+URL : http://localhost:500/api/usuarios/id
+
+METODO GET multiple
+URL : http://localhost:500/api/usuarios?page=1&string=&limit=10
+
+METODO POST
+
+URL: http://localhost:5000/api/usuarios
+
+DATOS JSON: 
+{
+"Usuario": "",
+"password": "",
+"nombres": " ",
+"cedula": " ",
+"correo": " "
+
+}
+
+METODO PUT
+
+URL: http://localhost:5000/api/usuarios/id
+
+DATOS JSON: 
+{
+"Usuario": "",
+"password": "",
+"nombres": " ",
+"cedula": " ",
+"correo": " "
+
+}
+
+METODO DELETE 
+URL: http://localhost:5000/api/usuarios/id
