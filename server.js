@@ -12,11 +12,13 @@ app.use(express.json());
 
 // Importación de rutas
 const authRoutes = require('./routes/auth');
-const usuariosRoutes = require('./routes/usuarios');
+const usuariosRoutes = require('./routes/usuarios'); 
+const estudiantesRoutes = require('./routes/estudiantes'); 
 
 // Usar rutas
 app.use('/api/auth', authRoutes);
 app.use('/api/usuarios', usuariosRoutes);
+app.use('/api/estudiantes', estudiantesRoutes);
 
 // Ruta principal
 app.get('/', (req, res) => {
